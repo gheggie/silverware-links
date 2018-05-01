@@ -1,0 +1,28 @@
+/* SilverWare Links Styles
+===================================================================================================================== */
+
+.linkpage {
+  
+  div.categories {
+    
+    > section.category {
+      
+      > header {
+        
+        cursor: pointer;
+        
+        &.opened + div.links {
+          display: block;
+        }
+        
+      }
+      
+      > div.links {
+        display: none;
+      }
+      
+    }
+    
+  }
+  
+}

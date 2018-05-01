@@ -1,0 +1,11 @@
+---
+Name: silverware-links
+---
+
+# Configure Content Controller:
+
+SilverStripe\CMS\Controllers\ContentController:
+  required_js:
+    - "silverware/links: client/dist/js/bundle.js"
+  required_css:
+    - "silverware/links: client/dist/styles/bundle.css"
