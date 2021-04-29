@@ -1,0 +1,18 @@
+/* SilverWare Links Module CSS Definitions:
+===================================================================================================================== */
+
+#LinkPage div.categories > article.category > header {
+  cursor: default;
+}
+
+#LinkPage div.categories > article.category > header i.icon {
+  display: none;
+}
+
+#LinkPage div.categories.toggle > article.category > header i.icon {
+  display: inline-block;
+}
+
+#LinkPage div.links > article.link {
+  margin-bottom: 3rem;
+}

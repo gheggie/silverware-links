@@ -1,0 +1,24 @@
+{
+    "name": "praxisnetau/silverware-links",
+    "description": "Links module for SilverWare.",
+    "type": "silverstripe-module",
+    "homepage": "https://github.com/praxisnetau/silverware-links",
+    "keywords": ["silverstripe", "silverware", "links"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Colin Tucker",
+            "role": "Developer",
+            "email": "colin@praxis.net.au",
+            "homepage": "http://www.praxis.net.au"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "praxisnetau/silverware": "~1.1"
+    },
+    "extra": {
+        "installer-name": "silverware-links"
+    },
+    "target-dir": "silverware-links"
+}
